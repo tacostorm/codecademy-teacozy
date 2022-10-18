@@ -1,7 +1,9 @@
 * {
     font-family: Helvetica, Arial, sans-serif;
+    font-size: 22px;
     background-color: black;
     color:seashell;
+    text-align: center;
 }
 
 ul {
@@ -10,6 +12,17 @@ ul {
 
 img {
     opacity: 0.9;
+}
+
+h2 {
+    font-size: 36px;
+    opacity: 0.9;
+}
+
+h4 {
+    font-size: 22px;
+    opacity: 0.9;
+
 }
 
 .header .container {
@@ -26,6 +39,7 @@ img {
     top: 0;
     z-index: 10;
     flex-grow: 1;
+    overflow: hidden;
 }
 
 .header img {
@@ -43,31 +57,28 @@ img {
     padding: 0px 10px;
 }
 
-.mission .container {
-    position: relative;
-    text-align: center;
-    max-height: 700px;
+.mission {
+    padding: 69px;
     max-width: 1200px;
+    max-height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mission-image {
+    background-image: url(../images/img-mission-background.jpg);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+
 }
 
-
-.mission h2 {
-    font-size: 36px;
+.text {
+    margin:auto;
+    background-color: black;
     width: 100%;
-    opacity: 0.9;
-}
+    height: 140px;
+    transform: translate(0%, -200%);
 
-.mission h4 {
-    font-size: 22px;
-    width: 100%;
-    opacity: 0.9;
-}
-
-.tea img {
-    height: 200px;
-    width: 300px;
 }
