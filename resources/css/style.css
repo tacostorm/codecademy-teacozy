@@ -81,12 +81,18 @@ h4 {
 
 .trends {
     display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin:auto;
 }
 
 .trend-item {
     max-width: 300px;
+    margin: 10px;
 }
 
 .trend-item img {
     max-height: 200px;
+
 }
